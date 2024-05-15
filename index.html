@@ -1,7 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grad Affirmations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Grad Affirmations</h1>
+    </header>
+    <main>
+        <section id="affirmation-generator">
+            <button id="generate-affirmation">Generate Affirmation</button>
+            <p id="affirmation-display"></p>
+        </section>
+        <section id="thought-reframer">
+            <input type="text" id="negative-thought" placeholder="Enter a negative thought...">
+            <button id="reframe-thought">Reframe Thought</button>
+            <p id="reframed-thought-display"></p>
+        </section>
+        <section id="rant-box">
+            <textarea id="rant-text" placeholder="Write your thoughts..."></textarea>
+            <p>Your thoughts have been acknowledged.</p>
+        </section>
+        <section id="resources">
+            <h2>Helpful Resources</h2>
+            <ul>
+                <li><a href="#">Mental Health in Grad School</a></li>
+                <li><a href="#">Stress Management Techniques</a></li>
+                <li><a href="#">Academic Support Services</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Grad Affirmations</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
